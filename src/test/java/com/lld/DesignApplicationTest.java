@@ -13,7 +13,8 @@ public class DesignApplicationTest
     extends TestCase
 {
     private static final String[] applications = new String[]{
-            "registercallback.RegisterCallbackApplication"
+            "registercallback.RegisterCallbackApplication",
+            "parkinglot.ParkingLotApplication"
     };
 
     /**
