@@ -1,8 +1,10 @@
-package com.lld.app;
+package com.lld;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+
+import java.util.Arrays;
 
 /**
  * Unit test for simple App.
@@ -10,6 +12,10 @@ import junit.framework.TestSuite;
 public class DesignApplicationTest
     extends TestCase
 {
+    private static final String[] applications = new String[]{
+            "registercallback.RegisterCallbackApplication"
+    };
+
     /**
      * Create the test case
      *
@@ -33,6 +39,8 @@ public class DesignApplicationTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        for (String app: applications) {
+            DesignApplication.main(new String[]{app});
+        }
     }
 }
