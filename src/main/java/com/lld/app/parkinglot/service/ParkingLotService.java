@@ -38,9 +38,9 @@ public class ParkingLotService {
      * API to remve parked car from the parked spot.
      * @param parkingSpotNumber
      */
-    public void removeParkedCar(Car car) {
-        parkingLot.removeParkedCar(car);
-        parkingStrategy.addEmptySpot(car);
+    public void removeParkedCar(int parkingSpotNumber) {
+        parkingLot.removeParkedCar(parkingSpotNumber);
+        parkingStrategy.addEmptySpot(parkingSpotNumber);
     }
 
     public void printAllParkedCars() {
