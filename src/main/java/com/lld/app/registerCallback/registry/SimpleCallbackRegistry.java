@@ -1,6 +1,6 @@
-package com.lld.app.registercallback.registry;
+package com.lld.app.registerCallback.registry;
 
-import com.lld.app.registercallback.client.ICallback;
+import com.lld.app.registerCallback.client.ICallback;
 
 /**
  * SimpleCallbackRegistry

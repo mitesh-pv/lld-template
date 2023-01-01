@@ -23,7 +23,7 @@ public class DesignApplication {
             application.getMethod(APP_MAIN_METHOD).invoke(applicationInstance);
         } catch (IllegalAccessException | ClassNotFoundException | NoSuchMethodException | InvocationTargetException
                 | InstantiationException exp) {
-            System.err.println(exp);
+            System.err.println(((InvocationTargetException) exp).getCause());
         }
 
         System.out.println("============================== Terminated ==============================");

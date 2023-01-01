@@ -17,7 +17,7 @@ compile exec:java -Dexec.mainClass=com.lld.app.DesignApplication -Dexec.args=<pa
 
 example:
 ```shell
-compile exec:java -Dexec.mainClass=com.lld.app.DesignApplication -Dexec.args=registercallback.RegisterCallbackApplication
+compile exec:java -Dexec.mainClass=com.lld.app.DesignApplication -Dexec.args=registerCallback.RegisterCallbackApplication
 ```
 
 ### Following command is used to create this template application
