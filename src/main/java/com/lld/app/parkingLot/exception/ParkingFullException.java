@@ -1,4 +1,4 @@
-package com.lld.app.parkinglot.exception;
+package com.lld.app.parkingLot.exception;
 
 public class ParkingFullException extends RuntimeException {
     public ParkingFullException(String message) {

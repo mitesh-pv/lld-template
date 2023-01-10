@@ -1,4 +1,4 @@
-package com.lld.app.parkinglot.execution;
+package com.lld.app.parkingLot.execution;
 
 public abstract class ExecutionMethod {
 

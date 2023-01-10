@@ -1,9 +1,9 @@
-package com.lld.app.parkinglot.service;
+package com.lld.app.parkingLot.service;
 
-import com.lld.app.parkinglot.model.Car;
-import com.lld.app.parkinglot.model.ParkingLot;
-import com.lld.app.parkinglot.model.ParkingSpot;
-import com.lld.app.parkinglot.strategy.ParkingStrategy;
+import com.lld.app.parkingLot.model.Car;
+import com.lld.app.parkingLot.model.ParkingLot;
+import com.lld.app.parkingLot.model.ParkingSpot;
+import com.lld.app.parkingLot.strategy.ParkingStrategy;
 import lombok.Data;
 
 import java.util.Map;

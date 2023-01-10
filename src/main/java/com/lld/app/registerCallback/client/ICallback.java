@@ -1,4 +1,4 @@
-package com.lld.app.registercallback.client;
+package com.lld.app.registerCallback.client;
 
 /**
  * Callback interface

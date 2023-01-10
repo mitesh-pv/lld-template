@@ -1,6 +1,6 @@
-package com.lld.app.registercallback.client.task;
+package com.lld.app.registerCallback.client.task;
 
-import com.lld.app.registercallback.registry.SimpleCallbackRegistry;
+import com.lld.app.registerCallback.registry.SimpleCallbackRegistry;
 
 /**
  * SimpleTask

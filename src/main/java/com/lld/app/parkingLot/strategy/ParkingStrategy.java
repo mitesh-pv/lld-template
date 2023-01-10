@@ -1,4 +1,4 @@
-package com.lld.app.parkinglot.strategy;
+package com.lld.app.parkingLot.strategy;
 
 public interface ParkingStrategy {
 

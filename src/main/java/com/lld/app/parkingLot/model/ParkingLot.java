@@ -1,7 +1,7 @@
-package com.lld.app.parkinglot.model;
+package com.lld.app.parkingLot.model;
 
-import com.lld.app.parkinglot.exception.InvalidCapacityException;
-import com.lld.app.parkinglot.exception.InvalidParkingSpotNumberException;
+import com.lld.app.parkingLot.exception.InvalidCapacityException;
+import com.lld.app.parkingLot.exception.InvalidParkingSpotNumberException;
 import lombok.Data;
 
 import java.util.HashMap;

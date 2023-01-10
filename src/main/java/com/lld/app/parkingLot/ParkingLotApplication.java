@@ -1,10 +1,9 @@
-package com.lld.app.parkinglot;
+package com.lld.app.parkingLot;
 
-import com.lld.app.parkinglot.model.Car;
-import com.lld.app.parkinglot.model.ParkingLot;
-import com.lld.app.parkinglot.model.ParkingSpot;
-import com.lld.app.parkinglot.service.ParkingLotService;
-import com.lld.app.parkinglot.strategy.NextClosestParkingStrategy;
+import com.lld.app.parkingLot.model.Car;
+import com.lld.app.parkingLot.model.ParkingLot;
+import com.lld.app.parkingLot.service.ParkingLotService;
+import com.lld.app.parkingLot.strategy.NextClosestParkingStrategy;
 
 /**
  * Low level design for Parking lot

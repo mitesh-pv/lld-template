@@ -1,6 +1,6 @@
-package com.lld.app.parkinglot.strategy;
+package com.lld.app.parkingLot.strategy;
 
-import com.lld.app.parkinglot.exception.ParkingFullException;
+import com.lld.app.parkingLot.exception.ParkingFullException;
 
 import java.util.TreeSet;
 

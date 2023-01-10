@@ -1,6 +1,6 @@
-package com.lld.app.registercallback;
+package com.lld.app.registerCallback;
 
-import com.lld.app.registercallback.client.task.SimpleTask;
+import com.lld.app.registerCallback.client.task.SimpleTask;
 import lombok.extern.slf4j.Slf4j;
 
 /**
